@@ -42,6 +42,28 @@
             <param name="sender"></param>
             <param name="e"></param>
         </member>
+        <member name="M:Sergioteacher.Csharp06.configurar1.MainWindow.BConf1_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Controla de forma manual la activación-desactivación de 1 valor
+            de una froma extremadamente simple
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Sergioteacher.Csharp06.configurar1.MainWindow.EscribirEnArchivo(System.String,System.String)">
+            <summary>
+            Usado para crear-actualizar el fichero de configuración
+            </summary>
+            <param name="texto"></param>
+            <param name="rutaArchivo"></param>
+        </member>
+        <member name="M:Sergioteacher.Csharp06.configurar1.MainWindow.LeerArchivo(System.String)">
+            <summary>
+            Usado para lerr el fichero de configuración
+            </summary>
+            <param name="rutaArchivo"></param>
+            <returns></returns>
+        </member>
         <member name="M:Sergioteacher.Csharp06.configurar1.MainWindow.InitializeComponent">
             <summary>
             InitializeComponent

@@ -33,8 +33,11 @@
                 </DataTemplate>
             </ComboBox.ItemTemplate>
         </ComboBox>
-        <TextBlock x:Name="adorno1" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" TextAlignment="Center" Text="§" Background="AliceBlue" VerticalAlignment="Center" FontFamily="Symbol"/>
+        <TextBlock x:Name="adorno1" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" TextAlignment="Center" Text="§" Background="AliceBlue" VerticalAlignment="Center" Margin="10" FontFamily="Symbol"/>
+        <TextBlock x:Name="adorno3" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" TextAlignment="Center" Text="$" Background="AliceBlue" VerticalAlignment="Bottom"  Margin="10" />
+
         <TextBlock x:Name="adorno2" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Stretch" TextAlignment="Center" Text=";-)" Background="AliceBlue" VerticalAlignment="Center" />
+        <Button x:Name="BConf1" Click="BConf1_Click"  Content="Activa Azul" HorizontalAlignment="Center"  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Top" Margin="20" Background="LightGray" />
 
     </Grid>
 </Window>
